@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorbg"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Week"
+        android:text="Week"
+        android:textSize="23dp"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/distant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=">"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/nfc_bg_1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--<Button-->
+            <!--android:id="@+id/attendance"-->
+            <!--android:layout_width="350dp"-->
+            <!--android:layout_height="70dp"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_marginBottom="40dp"-->
+            <!--android:text="출석 현황"-->
+            <!--android:textSize="40sp" />-->
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorbg"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/week"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="진행 중인 강의가 없습니다."
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorwhite"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/course_time"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/week"
+        android:layout_alignStart="@id/week"
+        android:layout_marginTop="20dp"
+        android:text="00:00:00 ~ 00:00:00"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorwhite"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/att_start"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/course_time"
+        android:layout_alignStart="@id/course_time"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorwhite"
+        android:text="출석 시작"
+        android:textSize="40sp"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/att_end"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/att_start"
+        android:layout_alignStart="@id/att_start"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorwhite"
+        android:text="출석 마감"
+        android:textAllCaps="false"
+        android:textSize="40sp"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/attendance"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/att_end"
+        android:layout_alignStart="@id/att_end"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorwhite"
+        android:text="출석 현황"
+        android:textAllCaps="false"
+        android:textSize="40sp" />
+
+</RelativeLayout>

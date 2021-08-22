@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ImHere</string>
+    <string name="signup_line"><u>회원등록</u></string>
+    <string name="content">ID와 Passward를 입력하고 Sign up 버튼을 눌러주세요.
+        현재 사용중인 휴대폰의 번호가 등록됩니다.
+        등록 된 후엔 등록된 휴대폰으로만 로그인 가능합니다.
+    </string>
+</resources>
